@@ -1,0 +1,36 @@
+body{
+    background-color: coral;
+}
+#contents{
+    background-color: burlywood;
+    padding: 0px;
+    margin: auto;
+}
+#images{
+    display: inline-block;
+    background-color: black;
+}
+.small img{
+    width: 100px;
+}
+img{
+    margin: 0px;
+    display: block;
+}
+div{
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+}
+
+
+ul li{
+    color: gray;
+}
+
+li:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,59 @@
+table{
+    font-family: 'Shippori Antique B1', sans-serif;
+    text-align: center;
+    border-spacing: 10px 0px;
+    background-color: rgb(233, 205, 169);
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+td{
+    padding: 15px 30px;
+    color: white;
+    /* background-color: antiquewhite; */
+}
+
+tr{
+    background-color: rgb(97, 67, 67);
+}
+
+tr:nth-child(2) td{
+    background-color: rgb(237, 172, 84);
+    font-size: 1.4em;
+    color: rgb(97, 67, 67);
+    font-weight: bold;
+    line-height: 1.1em;
+}
+
+tr:last-child td{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+tr:nth-child(3) td{
+    color: rgb(237, 172, 84);
+    font-size: 1.4em;
+}
+
+th{
+    background-image: url(tele.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    padding: 40px;
+    background-position: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;;
+}
+
+span{
+    display: block;
+    font-size: 0.5em;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: rgb(226, 80, 80);
+    border: 1px solid rgb(237, 172, 84);
+    border-radius: 20px;
+    color:white;
+}
