@@ -1,0 +1,18 @@
+#maincontent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#maincontent div{
+    width: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+#maincontent div:hover{
+    box-shadow: 1px 1px 3px 2px;
+}
+
+#maincontent div img{
+    max-width: 100%;
+}
