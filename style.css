@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 #content{
@@ -10,29 +11,35 @@ body{
     /* height: 500px; */
     background-color: antiquewhite;
     display: grid;
-    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-columns: repeat(6, 1fr);
     /* grid-template-rows: 10% 1fr 1fr; */
     /* align-items: center;
     justify-items: center; */
-    
+    font-size: 1.5em;
+    font-weight: bold;
+   
+}
+
+i{
+    font-size: 2em;
+    color: red;
 }
 
 #content div{
    box-sizing: border-box;
    border: 1px solid black;
 }
-
+/*
 #content div.special{
     /* align-self: center;
     justify-self: center;
     width: 50px;
     height: 40px; */
-    grid-column: 2/4;
+/*    grid-column: 2/4;
     grid-row: 1/2;
 }
 
 #content div:first-child{
-    /* grid-column: 1/4; */
+    grid-column: 1/4;
     grid-row: 1/3;
-}
-
+}*/
